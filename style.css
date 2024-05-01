@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 380px;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.login-box {
+    border: 1px solid #b6b6b6;
+
+}
+
+#username,
+#password {
+    border: 1px solid lightgrey;
+    background-color: #fafdfd;
+    width: 280px;
+    padding: 10px;
+    margin: 2px 0px;
+    outline: none;
+}
+
+#btn {
+    border: none;
+    background-color: #00aeff;
+    color: white;
+    width: 280px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 0px;
+}
+
+.or {
+    margin: 10px;
+    color: #696868;
+    font-size: 15px;
+}
+
+.fa {
+    margin-right: 10px;
+}
+
+#fb-txt {
+    font-size: 16px;
+    font-weight: 550;
+    color: #04046bac;
+    margin: 20px 0px;
+}
+
+.forgot {
+    margin: 20px 0px;
+}
+
+.create-account {
+    border: 1px solid #b6b6b6;
+    margin: 10px 0px;
+    padding: 20px;
+}
+
+.create-account a {
+    color: #00aeff;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.last-part{
+    margin-bottom: 40px;
+}
+.last-part p {
+    margin: 20px 0px;
+}
+
+.img {
+    height: 40px;
+}
+
+.footer,
+.lang {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    color: #5e5e5e;
+}
+
+.footer p,
+.lang p {
+    margin-left: 10px;
+}
+
+select {
+    color: gray;
+    border: none;
+}
